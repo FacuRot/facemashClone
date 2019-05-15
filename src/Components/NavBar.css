@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin : 0;
+}
+	
+header {
+    display: flex;
+    justify-content: space-between;
+    background: #F4511E;
+    width: 100%;
+    height: 77px;
+    position: fixed;
+    z-index: 1;
+}
+
+#logo {
+    color: rgb(250, 250, 250);
+    float : left;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    margin : 10px;
+    padding-left: 10px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+    overflow: hidden; /* Limpiamos errores de float */
+}
+
+nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+nav ul li i {
+    display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+    margin : 15px;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+i:link, i:visited, i:active {
+    position : relative;
+    color : white;
+    text-decoration:none;
+}
+
+i:hover {
+    color : white;
+    cursor : pointer;
+}
+
+a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.sideNav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 0; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: rgb(250, 250, 250);
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s;
+}

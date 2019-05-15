@@ -1,0 +1,120 @@
+
+/* estilo login */
+.loginStyle {
+  width: 90%;
+  max-width: 315px;
+  margin-top: 10%;
+  border: 1px solid #F4511E;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.chooseSexStyle {
+  margin: 250%, auto;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ManText {
+  margin-right: 20px;
+  font-size : 40px;
+}
+
+.ManText:hover {
+  cursor: pointer;
+  color: #2196F3;
+}
+
+.WomanText {
+  margin-left: 20px;
+  font-size: 40px;
+}
+
+.WomanText:hover {
+  cursor: pointer;
+  color: #2196F3;
+}
+
+.fatherStyle {
+  width: 100%;
+  margin: 0;
+  padding-right: 20px;
+  background-color: rgb(250, 250, 250);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.homeStlye {
+  width:70%;
+  margin:0;
+  padding:0;
+  margin-top: 100px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align:center;
+}
+
+.topRankedMen {
+  width: 70%;
+  margin-top: 50px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imageDiv {
+  display : "inline-block";
+  border : 1px solid #FFAB00;
+  border-bottom : 1px solid #FFC400;
+  border-radius: 8px;
+}
+
+.image {
+  border-radius: 8px;
+  padding:5px;
+  margin: 10px;
+}
+
+.image:hover {
+  cursor: pointer;
+}
+
+.alignText {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.loginContainer {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 80px;
+  margin-top: 15px;
+  color: #F4511E; 
+}
+
+h2 {
+  font-family: 'Varela Round', sans-serif;
+}
+
+p {
+  font-family: 'Varela Round', sans-serif;
+  color : #616161;
+}
