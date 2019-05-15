@@ -8,12 +8,7 @@ import registerServiceWorker from './registerServiceWorker';
 
 //inicializar firebase
 firebase.initializeApp({
-  apiKey: "AIzaSyB4yo5zKC26BR46UN_mf93Uq1vIRGxi8r8",
-  authDomain: "fotomatching.firebaseapp.com",
-  databaseURL: "https://fotomatching.firebaseio.com",
-  projectId: "fotomatching",
-  storageBucket: "",
-  messagingSenderId: "42494916165"
+  //your firebase keys
 });
 
 //provedor de autenticacion facebook
